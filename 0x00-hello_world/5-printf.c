@@ -2,7 +2,7 @@
 
 /**
  * main - main for printf
- * retutn 0
+ * retutn: 0
  */
 
 int main(void)
