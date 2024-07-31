@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - main for printf
- * retutn: 0
- */
+  * main - main for printf
+  * Return: 0
+**/
 
 int main(void)
 {
