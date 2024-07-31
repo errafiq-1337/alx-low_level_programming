@@ -14,4 +14,3 @@ int main(void)
     write(2, msg2, sizeof(msg2) - 1);
     return (1);
 }
-
