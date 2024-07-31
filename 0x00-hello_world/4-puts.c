@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- *  main for print a string
-*/
+ * main - main for puts
+ * Return: 0
+ */
 
 int main(void)
 {
