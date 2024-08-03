@@ -12,13 +12,15 @@ int main(void)
 	while (i >= 48 && i <= 57)
 	{
 		putchar(i);
-		if (i != 8)
+		if (i == 9)
+		{
+			break;
+		}
+		else 
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		else 
-			break;
 		i++;
 	}
 	putchar('\n');
