@@ -13,7 +13,10 @@ int main(void)
 	{
 		putchar(i);
 		if (i == 57)
-			return;
+		{
+			putchar('\n');
+			return (0);
+		}
 		else 
 		{
 			putchar(',');
@@ -21,6 +24,5 @@ int main(void)
 		}
 		i++;
 	}
-	putchar('\n');
 	return (0); 
 }
