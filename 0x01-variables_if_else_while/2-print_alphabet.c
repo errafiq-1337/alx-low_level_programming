@@ -7,6 +7,8 @@
 
 int main(void)
 {
-	putchar(abcdefghijklmnopqrstuvwxyz);
+	char *str = "abcdefghijklmnopqrstuvwxyz";
+	while (*str)
+		putchar(*str++);
 	return (0);
 }
