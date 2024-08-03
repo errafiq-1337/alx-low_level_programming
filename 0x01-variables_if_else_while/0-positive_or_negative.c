@@ -7,7 +7,7 @@
  * main - for program
  * return: 0
  * if and else if - for conditin
- **/
+**/
 
 /* betty style doc for function main goes there */
 int main(void)
@@ -22,6 +22,6 @@ int main(void)
 	else if (n < 0)
 		printf("%d is negative\n", n);
 	else if (n == 0)
-		printf("0 is zero");
+		printf("0 is zero\n");
 	return (0);
 }
