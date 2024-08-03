@@ -1,13 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - for a program that prints the alphabet in lowercase
+ * main - putchar alphabt
  * return: 0
 **/
 
 int main(void)
 {
-	char *str = "abcdefghijklmnopqrstuvwxyz";
+	char *str = "abcdefghijklmnopqrstuvwxyz\n";
+
 	while (*str)
 		putchar(*str++);
 	return (0);
