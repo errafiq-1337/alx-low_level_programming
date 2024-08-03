@@ -4,10 +4,9 @@
 /* more headers goes there */
 
 /**
- * main - for program
- * return: 0
- * if and else if - for conditin
-*/
+  * main - main for printf
+  * Return: 0
+**/
 
 /* betty style doc for function main goes there */
 int main(void)
