@@ -3,6 +3,12 @@
 #include <stdio.h>
 /* more headers goes there */
 
+/**
+ * main - for program
+ * return: 0
+ * if and else if - for conditin
+ **/
+
 /* betty style doc for function main goes there */
 int main(void)
 {
@@ -12,9 +18,9 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	if (n > 0)
-		printf("%d is positive\n",n);
+		printf("%d is positive\n", n);
 	else if (n < 0)
-		printf("%d is negative\n",n);
+		printf("%d is negative\n", n);
 	else if (n == 0)
 		printf("0 is zero");
 	return (0);
