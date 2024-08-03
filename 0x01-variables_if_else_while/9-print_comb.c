@@ -12,10 +12,8 @@ int main(void)
 	while (i >= 48 && i <= 57)
 	{
 		putchar(i);
-		if (i == 9)
-		{
+		if (i == 57)
 			break;
-		}
 		else 
 		{
 			putchar(',');
