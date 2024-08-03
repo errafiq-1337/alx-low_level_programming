@@ -7,7 +7,7 @@
  * main - for program
  * return: 0
  * if and else if - for conditin
-**/
+*/
 
 /* betty style doc for function main goes there */
 int main(void)
