@@ -17,12 +17,12 @@ int main(void)
 			putchar('\n');
 			return (0);
 		}
-		else 
+		else
 		{
 			putchar(',');
 			putchar(' ');
 		}
 		i++;
 	}
-	return (0); 
+	return (0);
 }
