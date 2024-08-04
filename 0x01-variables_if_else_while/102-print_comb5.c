@@ -7,50 +7,27 @@
 
 int main(void)
 {
-	int i = 48;
-	int j;
-	int k;
-	int n;
+        int i = 0;
+        int j;
 
-	while (i >= 48 && i <= 57)
-	{
-		j = 48;
-		while (j >= 48 && j <= 57)
-		{
-			k = 48;
-			while (k >= 48 && k <= 57)
-			{
-				n = 48;
-				while (n >= 48 && n <= 57)
-				{
-					if (i == j && j== k
-                                                        && k == n)
-						 return (0);
-					else
-					{
-						putchar(i);
-						putchar(j);
-						putchar(' ');
-						putchar(k);
-						putchar(n);
-						if (i == '9' && j == '8' && k == '9' &&n == '9')
-						{
-							putchar('\n');
-							return (0);
-						}
-						else
-						{
-							putchar(',');
-							putchar(' ');
-						}
-					}
-					n++;
-				}
-				k++;
-			}
-			j++;
-		}
-		i++;
-	}
-	return (0);
+        while (i >= 0 && i <= 99)
+        {
+                j = i + 1;
+                while (j >= 0 && j <= 99)
+                {
+                        putchar(i / 10 + 48);
+                        putchar(i % 10 + 48);
+                        putchar(' ');
+                        putchar(j / 10 + 48);
+                        putchar(j % 10 + 48);
+                        if (i != 98 || j != 99)
+                        {
+                                putchar(',');
+                                putchar(' ');
+                        }
+                        j++;
+                }
+                i++;
+        }
+        return (0);
 }
