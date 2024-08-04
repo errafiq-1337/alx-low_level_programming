@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include <unistd.h>
 
-char *putshar(*str)
+int putshar(char c)
 {
-	putchar(str);
+	write(1,&c,1);
 }
