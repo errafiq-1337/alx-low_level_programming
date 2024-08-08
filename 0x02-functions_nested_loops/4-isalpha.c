@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - for checks for lowercase
+ * _isalpha - for checks alphabet
  * @c: parameter or member
  * Return: 0 if otherwise and 1 if c is lowercase
 **/
